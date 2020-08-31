@@ -81,7 +81,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    Hernan Martinez Reumann
                 </div>
 
                 <div class="links">
