@@ -19,7 +19,13 @@ Route::get('/', function () {
 });
 
 Route::get('check-queue',function(){
-	\Mail::to('hmreumann@hotmail.com')->send(new TestMail());
+	\Mail::to('hmartinezreumann@gmail.com')->send(new TestMail());
+
+	return 'Working';
+});
+
+Route::get('teamoestefi',function(){
+	\Mail::to('tefi-arz@hotmail.com')->send(new TestMail());
 
 	return 'Working';
 });
