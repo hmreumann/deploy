@@ -25,7 +25,7 @@ Route::get('check-queue',function(){
 });
 
 Route::get('teamoestefi',function(){
-	\Mail::to('tefi-arz@hotmail.com')->send(new TestMail());
+	\Mail::to('tefi.arz@gmail.com')->send(new TestMail());
 
 	return 'Working';
 });
