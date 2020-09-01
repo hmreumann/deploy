@@ -81,11 +81,11 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Te amo cachorra
+                    Bienvenido a mi aplicación
                 </div>
 
                 <div class="links">
-                    Hernán :)
+                    Atte. Hernán :)
                 </div>
             </div>
         </div>
