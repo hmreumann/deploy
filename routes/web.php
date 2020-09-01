@@ -19,7 +19,7 @@ Route::get('/', function () {
 });
 
 Route::get('check-queue',function(){
-	Mail::to('hmreumann@hotmail.com')->send(new TestMail());
+	\Mail::to('hmreumann@hotmail.com')->send(new TestMail());
 
 	return 'Working';
 });
