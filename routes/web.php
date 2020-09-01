@@ -17,6 +17,12 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('check-queue',function(){
+	Mail::to('hmreumann@hotmail.com')->send(new TestMail());
+
+	return 'Working';
+});
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
